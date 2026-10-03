@@ -1,5 +1,5 @@
 context:
-  version: "2.0.28"
+  version: "2.0.29"
 
 package:
   name: autohotkey
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/AutoHotkey/AutoHotkey/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 4520c28768080941342fd75f0ca1f294a6b80840fb9a04243d289ba080696d63
+  sha256: 5aae3c35fe9523a19486c5cfbb7d8bdf13c32e6cf10cc9bdc9bb0ff366503145
   patches:
     # The release tarball has no .git directory, so the version cannot be read via
     # `git describe`. Allow it to be supplied through /p:RawAhkVersion instead.
